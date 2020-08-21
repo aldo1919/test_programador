@@ -22,19 +22,19 @@ class UserSeeder extends Seeder
                 'name' => $faker->firstname,
                 'estado' => $faker->randomElement($array = array ('1','0')),
                 'email' => $faker->unique()->freeEmail,
-                'password' => Hash::make( Str::random(8) )
+                'password' => md5(Str::random(8))
             ];
         }
-        $chunks = array_chunk($data,2000);
+        $chunks = array_chunk($data,5000);
         foreach ($chunks as $chunk) {
             User::insert($chunk);
         }
         // foreach (range(1,20000) as $index) {
         //     DB::table('users')->insert([
         //         'name' => $faker->firstname,
-        //         'estado' => '1',
+        //         'estado' => $faker->randomElement($array = array ('1','0')),
         //         'email' => $faker->unique()->freeEmail,
-        //         'password' =>Hash::make( Str::random(8) ),
+        //         'password' =>md5( Str::random(8) ),
         //     ]);
         // }
     }

@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/get_users/{hoja?}','UsuarioController@GetUsers');
+Route::post('/change_state','UsuarioController@ChangeState');
+
