@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2d96b553e8903ed7234a7db23a0ccda1a5ca0347
 Instalacion </br>
 Paso 1: composer i </br>
 Paso 2:  npm i </br>
 Paso 3: Crear una base de datos llamado laravel en el localhost </br>
 Paso 4: php artisan migrate:fresh --seed </br>
 Paso 5: php artisan serve  </br>
+<<<<<<< HEAD
+>>>>>>> 2d96b553e8903ed7234a7db23a0ccda1a5ca0347
+=======
 >>>>>>> 2d96b553e8903ed7234a7db23a0ccda1a5ca0347
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
