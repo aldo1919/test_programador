@@ -1,9 +1,9 @@
-Instalacion
-Paso 1: composer i
-Paso 2:  npm i
-Paso 3: Crear una base de datos llamado laravel en el localhost
-Paso 4: php artisan migrate:fresh --seed
-Paso 5: php artisan serve 
+Instalacion </br>
+Paso 1: composer i </br>
+Paso 2:  npm i </br>
+Paso 3: Crear una base de datos llamado laravel en el localhost </br>
+Paso 4: php artisan migrate:fresh --seed </br>
+Paso 5: php artisan serve  </br>
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
